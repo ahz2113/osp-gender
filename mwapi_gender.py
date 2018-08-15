@@ -71,7 +71,3 @@ def get_Gender(name):
 			else:
 				return "Unknown"
 
-
-if __name__ == '__main__':
-	print(get_Gender("Mark Twain"))
-
