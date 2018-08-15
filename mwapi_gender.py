@@ -46,6 +46,8 @@ def get_wikidata(name):
 		return "Non-Binary"
 	elif gender == "Q52261234":
 		return "Neutral"
+	else:
+		return "Unknown"
 
 def get_Gender(name):
 	"""
